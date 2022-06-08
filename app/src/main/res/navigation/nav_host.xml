@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.trafficapp.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/like"
+        android:name="com.example.trafficapp.LikeFragment"
+        android:label="fragment_like"
+        tools:layout="@layout/fragment_like" />
+    <fragment
+        android:id="@+id/info"
+        android:name="com.example.trafficapp.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.example.trafficapp.ViewPagerFragment"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager" />
+    <fragment
+        android:id="@+id/addTrafficFragment"
+        android:name="com.example.trafficapp.AddTrafficFragment"
+        android:label="fragment_add_traffic"
+        tools:layout="@layout/fragment_add_traffic" />
+</navigation>
